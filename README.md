@@ -107,7 +107,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Mauricio Villavicencio**
 [LinkedIn](https://www.linkedin.com/in/mauriciovillavicencio)
-Project Link: [https://github.com/maurilaparva/optiDR](https://github.com/maurilaparva/optiDR)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

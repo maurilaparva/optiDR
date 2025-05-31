@@ -103,15 +103,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## Contact
-
-**Mauricio Villavicencio**
-[LinkedIn](https://www.linkedin.com/in/mauriciovillavicencio)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
 
 ## Acknowledgments
 

@@ -6,7 +6,7 @@
 
 <br />
 <div align="center">
-  <img src="images/logo.png" alt="Sample Retina Image" width="300" height="150">
+  <img src="images/logo.png" alt="Sample Retina Image" width="300" height="200">
   <h3 align="center">optiDR</h3>
   <p align="center">
     An EfficientNet-based Diabetic Retinopathy Classifier built with PyTorch

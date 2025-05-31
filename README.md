@@ -1,0 +1,175 @@
+<!-- Improved compatibility of back to top link -->
+
+<a id="readme-top"></a>
+
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+
+<br />
+<div align="center">
+  <img src="data/train_images/000c1434d8d7.png" alt="Sample Retina Image" width="150" height="150">
+  <h3 align="center">optiDR</h3>
+  <p align="center">
+    An EfficientNet-based Diabetic Retinopathy Classifier built with PyTorch
+    <br />
+    <a href="#getting-started"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="#usage">View Demo</a>
+    ·
+    <a href="#issues">Report Bug</a>
+    ·
+    <a href="#features">Request Feature</a>
+  </p>
+</div>
+
+---
+
+## About The Project
+
+optiDR is a deep learning project designed to classify retinal fundus images into diabetic retinopathy severity levels using EfficientNet-B7. It is modular, easy to extend, and tuned for readability and real-world use.
+
+### Built With
+
+* [PyTorch](https://pytorch.org/)
+* [Torchvision](https://pytorch.org/vision/stable/index.html)
+* [EfficientNet](https://paperswithcode.com/method/efficientnet)
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [scikit-learn](https://scikit-learn.org/stable/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* Python 3.8+
+* pip or conda
+
+### Installation
+
+1. Clone the repo
+
+   ```bash
+   git clone https://github.com/yourusername/optiDR.git
+   cd optiDR
+   ```
+2. Create virtual environment & install dependencies
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Usage
+
+Train the model:
+
+```bash
+python train.py
+```
+
+Evaluate on test set:
+
+```bash
+python test.py
+```
+
+All images and CSVs should be in:
+
+```
+data/
+├── train_images/
+├── val_images/
+├── test_images/
+├── train_1.csv
+├── valid.csv
+└── test.csv
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Roadmap
+
+* [x] Modularize data, transforms, model, training, and evaluation
+* [x] Support EfficientNet-B7 pretrained models
+* [ ] Add Grad-CAM visualization support
+* [ ] Add CLI arguments for hyperparameters
+* [ ] Explore multi-label classification
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open a PR or issue if you have suggestions or improvements.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes
+4. Push to the Branch
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Contact
+
+**Mauricio Villavicencio**
+[LinkedIn](https://www.linkedin.com/in/mauriciovillavicencio)
+Project Link: [https://github.com/yourusername/optiDR](https://github.com/yourusername/optiDR)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Acknowledgments
+
+* [Best README Template](https://github.com/othneildrew/Best-README-Template)
+* [EfficientNet Paper](https://arxiv.org/abs/1905.11946)
+* [APTOS 2019 Dataset](https://www.kaggle.com/competitions/aptos2019-blindness-detection)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/yourusername/optiDR.svg?style=for-the-badge
+[contributors-url]: https://github.com/yourusername/optiDR/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yourusername/optiDR.svg?style=for-the-badge
+[forks-url]: https://github.com/yourusername/optiDR/network/members
+[stars-shield]: https://img.shields.io/github/stars/yourusername/optiDR.svg?style=for-the-badge
+[stars-url]: https://github.com/yourusername/optiDR/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yourusername/optiDR.svg?style=for-the-badge
+[issues-url]: https://github.com/yourusername/optiDR/issues
+[license-shield]: https://img.shields.io/github/license/yourusername/optiDR.svg?style=for-the-badge
+[license-url]: https://github.com/yourusername/optiDR/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/mauriciovillavicencio

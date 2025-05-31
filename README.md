@@ -10,15 +10,7 @@
   <h3 align="center">optiDR</h3>
   <p align="center">
     An EfficientNet-based Diabetic Retinopathy Classifier built with PyTorch
-    <br />
-    <a href="#getting-started"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#usage">View Demo</a>
-    ·
-    <a href="#issues">Report Bug</a>
-    ·
-    <a href="#features">Request Feature</a>
+    
   </p>
 </div>
 
@@ -54,7 +46,13 @@ optiDR is a deep learning project designed to classify retinal fundus images int
    git clone https://github.com/yourusername/optiDR.git
    cd optiDR
    ```
-2. Create virtual environment & install dependencies
+2. Download the dataset from the APTOS 2019 Blindness Detection competition on Kaggle.
+3. Place the following files in the data/ directory:
+    - train_images
+    - test_images
+    - val_images (you can split from training manually)
+    - train_1.csv, test.csv, valid.csv
+4. Create virtual environment & install dependencies
 
    ```bash
    python -m venv venv

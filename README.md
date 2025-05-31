@@ -2,20 +2,11 @@
 
 <a id="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 
 <br />
 <div align="center">
-  <img src="data/train_images/000c1434d8d7.png" alt="Sample Retina Image" width="150" height="150">
+  <img src="data/images/logo.png" alt="Sample Retina Image" width="150" height="150">
   <h3 align="center">optiDR</h3>
   <p align="center">
     An EfficientNet-based Diabetic Retinopathy Classifier built with PyTorch
@@ -30,8 +21,6 @@
     <a href="#features">Request Feature</a>
   </p>
 </div>
-
----
 
 ## About The Project
 
@@ -107,31 +96,6 @@ data/
 
 ---
 
-## Roadmap
-
-* [x] Modularize data, transforms, model, training, and evaluation
-* [x] Support EfficientNet-B7 pretrained models
-* [ ] Add Grad-CAM visualization support
-* [ ] Add CLI arguments for hyperparameters
-* [ ] Explore multi-label classification
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Contributing
-
-Contributions are welcome! Please open a PR or issue if you have suggestions or improvements.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3. Commit your Changes
-4. Push to the Branch
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
 
 ## License
 
@@ -145,7 +109,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Mauricio Villavicencio**
 [LinkedIn](https://www.linkedin.com/in/mauriciovillavicencio)
-Project Link: [https://github.com/yourusername/optiDR](https://github.com/yourusername/optiDR)
+Project Link: [https://github.com/maurilaparva/optiDR](https://github.com/maurilaparva/optiDR)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +117,6 @@ Project Link: [https://github.com/yourusername/optiDR](https://github.com/yourus
 
 ## Acknowledgments
 
-* [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [EfficientNet Paper](https://arxiv.org/abs/1905.11946)
 * [APTOS 2019 Dataset](https://www.kaggle.com/competitions/aptos2019-blindness-detection)
 

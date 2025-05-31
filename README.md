@@ -47,7 +47,7 @@ optiDR is a deep learning project designed to classify retinal fundus images int
    cd optiDR
    ```
 2. Download the dataset from the APTOS 2019 Blindness Detection competition on Kaggle.
-3. Place the following files in the data/ directory:
+3. Place the following files in the data directory (create folder):
     - train_images
     - test_images
     - val_images (you can split from training manually)
